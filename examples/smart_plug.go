@@ -12,6 +12,10 @@ func main() {
 		fmt.Println("err:", err)
 	}
 	fmt.Println(results)
-	powerStatus, _ := plug.PowerStatus()
+
+	powerStatus, err := plug.PowerStatus()
+	if err != nil {
+		fmt.Println("err:", err)
+	}
 	fmt.Println(powerStatus)
 }
