@@ -8,6 +8,6 @@ https://github.com/softScheck/tplink-smartplug/blob/master/tplink-smarthome-comm
 ```
 
 * Current in Amps
-* Voltage in
+* Voltage in Volts
 * Power in Watts
 * Total in kWh
